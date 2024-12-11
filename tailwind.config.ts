@@ -7,10 +7,28 @@ export default {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      'mobile': '640px',
+      // => @media (min-width: 640px) { ... }
+
+      'tablet': '768px',
+      // => @media (min-width: 1024px) { ... }
+
+      'laptop': '1024px',
+      // => @media (min-width: 640px) { ... }
+
+      'desktop': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      'ultra': '1441px',
+      // => @media (min-width: 640px) { ... }
+    },
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        butn: "#FF6B35",
+        char: "#6C5A49",
+        background: "#FFFBDB"
+
       },
     },
   },
