@@ -1,10 +1,11 @@
-import Image from "next/image";
+import Hero from "../components/Hero";
 
 export default function Home() {
   return (
     <main>
       <div>
-        <h2>Check Check</h2>
+        <Hero />
+        {/* <h2>Test</h2> */}
       </div>
     </main>
   );
