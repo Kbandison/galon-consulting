@@ -10,7 +10,7 @@ const ButtonsBar = () => {
         <Button title="Billing and Revenue" />
         <Button title="Healthcare Consulting" />
         <Button title="Patient Care" />
-        <Button title="Healthcare IT" />
+        <Button title="Healthcare I" />
       </div>
     </div>
   );
