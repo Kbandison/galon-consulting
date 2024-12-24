@@ -29,14 +29,14 @@ export const HeroHighlight = ({
   return (
     <div
       className={cn(
-        "relative h-[40rem] flex items-center bg-cover bg-no-repeat bg-center bg-black bg-[url('/healthcare-mobile-o.jpg')] dark:bg-black justify-center w-full group",
+        "relative h-[25rem] tablet:h-[35rem] flex items-center bg-cover bg-no-repeat bg-center bg-[url('/healthcare-mobile-o.jpg')] dark:bg-black justify-center w-full group -mt-16",
         containerClassName
       )}
       onMouseMove={handleMouseMove}
     >
       <div className="absolute inset-0 bg-dot-thick-neutral-800 dark:bg-dot-thick-neutral-800  pointer-events-none bg-black bg-opacity-45" />
       <motion.div
-        className="pointer-events-none bg-dot-thick-indigo-500 dark:bg-dot-thick-indigo-500   absolute inset-0 opacity-0 transition duration-300 group-hover:opacity-100"
+        className="pointer-events-none bg-dot-thick-butn dark:bg-dot-thick-butn   absolute inset-0 opacity-0 transition duration-300 group-hover:opacity-100"
         style={{
           WebkitMaskImage: useMotionTemplate`
             radial-gradient(
@@ -86,7 +86,7 @@ export const Highlight = ({
         display: "inline",
       }}
       className={cn(
-        `relative inline-block pb-1 px-1 rounded-lg bg-gradient-to-r from-indigo-300 to-purple-300 dark:from-indigo-500 dark:to-purple-500`,
+        `relative inline-block pb-1 px-1 rounded-lg bg-gradient-to-r from-background to-butn dark:from-butn dark:to-char`,
         className
       )}
     >

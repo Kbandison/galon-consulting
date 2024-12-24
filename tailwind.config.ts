@@ -15,27 +15,42 @@ module.exports = {
   ],
   darkMode: "class",
   theme: {
-    screens: {
-      mobile: "640px",
-      // => @media (min-width: 640px) { ... }
-
-      tablet: "768px",
-      // => @media (min-width: 1024px) { ... }
-
-      laptop: "1024px",
-      // => @media (min-width: 640px) { ... }
-
-      desktop: "1280px",
-      // => @media (min-width: 1280px) { ... }
-
-      ultra: "1441px",
-      // => @media (min-width: 640px) { ... }
-    },
     extend: {
       colors: {
         butn: "#FF6B35",
         char: "#6C5A49",
         background: "#FFFBDB",
+      },
+      screens: {
+        mini: "10px",
+        // => @media (min-width: 640px) { ... }
+        mobile: "640px",
+        // => @media (min-width: 640px) { ... }
+
+        tablet: "768px",
+        // => @media (min-width: 1024px) { ... }
+
+        laptop: "1024px",
+        // => @media (min-width: 640px) { ... }
+
+        desktop: "1280px",
+        // => @media (min-width: 1280px) { ... }
+
+        ultra: "1441px",
+        // => @media (min-width: 640px) { ... }
+      },
+      animation: {
+        shimmer: "shimmer 2s linear infinite",
+      },
+      keyframes: {
+        shimmer: {
+          from: {
+            backgroundPosition: "0 0",
+          },
+          to: {
+            backgroundPosition: "-200% 0",
+          },
+        },
       },
     },
   },

@@ -18,10 +18,10 @@ export default function Hero() {
           duration: 0.5,
           ease: [0.4, 0.0, 0.2, 1],
         }}
-        className="text-4xl px-4 md:text-4xl lg:text-5xl font-bold text-white dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
+        className="text-3xl px-4 tablet:text-5xl font-bold text-white dark:text-white max-w-4xl leading-[3.5rem] tablet:leading-[4.5rem]  text-center mx-auto"
       >
         If you need Healthcare services from people you can trust,
-        <Highlight className="text-black dark:text-white">
+        <Highlight className="text-char dark:text-white">
           Galon Consulting Services
         </Highlight>
         is your dependable helper.
